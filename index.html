@@ -1,14 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 id="typing">Welcome to My Portfolio</h1>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+    </header>
 
-        <link rel="stylesheet" href="style.css" />
-        <title>My Personal Website</title>
-      
-  </head>
-  <body>
-    <h1>Hello World!</h1>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Elizabeth Ndinda. I am a passionate software engineering student on a journey to become a full-stack developer. I started with the basics of HTML and CSS, and now I am learning JavaScript to create dynamic and interactive web applications. I believe coding is not just a skill but a tool to solve real-world problems.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Calculator App</h3>
+            <p>A simple calculator built with HTML, CSS, and JavaScript that performs basic arithmetic operations with a user-friendly interface.</p>
+        </div>
+        <div class="project">
+            <h3>Personal Blog</h3>
+            <p>A blog website where I share my journey in software engineering, including technical articles, personal insights, and coding tutorials.</p>
+        </div>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>This portfolio website showcases my skills, projects, and contact information as I progress in my software engineering journey.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git & GitHub</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <button id="backToTop">Back to Top</button>
+
+    <footer>
+        <p>&copy; 2025 Elizabeth Ndinda Portfolio</p>
+    </footer>
+
     <script src="script.js"></script>
-
-  </body>
+</body>
 </html>
