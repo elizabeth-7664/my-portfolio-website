@@ -76,7 +76,7 @@ Open the index.html file in your browser.
 
 Contact
 
-If you would like to get in touch, feel free to fill out the contact form on the website or email me at your-email@example.com.
+If you would like to get in touch, feel free to fill out the contact form on the website or email me at elizabethndinda41@gmail.com
 
 Thank you for visiting my portfolio!
 
